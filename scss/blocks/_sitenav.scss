@@ -1,0 +1,37 @@
+.sitenav__list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.sitenav__item:not(:last-child){
+margin-right: 22px;
+}
+
+.sitenav__link{
+  text-decoration: none;
+  color: #72787D;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  &--active{
+    color: #036FC7;
+  }
+}
+
+.sitenav__link-btn{
+  text-decoration: none;
+  color: #72787D;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 9px 20px;
+  background-color: #212B31;
+  border: 1px solid #212B31;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  color: #fff;
+}
